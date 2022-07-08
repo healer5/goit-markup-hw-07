@@ -804,6 +804,7 @@ address {
   line-height: 1.72;
   letter-spacing: 0.03em;
   font: inherit;
+  display: flex;
 }
 
 .send-icon {

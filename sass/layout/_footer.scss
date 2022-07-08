@@ -137,6 +137,7 @@
 .footer-mailing {
     margin-left: 93px;
 }
+
 .footer-button {
   @extend %align-list;
     justify-content: center;
@@ -153,9 +154,10 @@
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
-    font:inherit;  
+    font:inherit; 
+    display: flex; 
 }
 
 .send-icon {
     margin-left: 10px;
-  }
+}
