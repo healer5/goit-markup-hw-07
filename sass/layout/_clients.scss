@@ -3,14 +3,14 @@
     background: var(--primary-bg-color);
   }
 
-.clients-list {
+.clients__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
 }
 
-.clients-link {
+.clients__link {
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -33,7 +33,7 @@
 }
 }
 
-.clients-icon {
+.clients__icon {
   fill: currentColor;
 
 }

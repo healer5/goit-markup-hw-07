@@ -2,13 +2,19 @@ header {
     border-bottom:1px solid var(--header-border-color);
     align-items: center;
     margin-top: 0;
+    @extend %align-list;
+    
+    .container{
+        display: flex;
+    }
 }
 
-.main-menu {
+.nav {
+    @extend %align-list;
     display: flex;
 }
 
-.logo {
+.nav__logo{
     display: block;
     margin-right: 93px;
     padding: 24px 0 25px 0;
@@ -19,17 +25,8 @@ header {
     font-weight: 700;
 }
 
-.half-logo {
-    color: #000000;
-}
-
-.nav {
-    @extend %align-list;
-    display: flex;
-}
-
-.header{
-    @extend %align-list;
+.nav__logo--second-part {
+    color:var(--primary-text-color);
 }
 
 .contact-nav__item {

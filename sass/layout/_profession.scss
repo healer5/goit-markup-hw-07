@@ -1,4 +1,4 @@
-.profession{
+.profession {
     padding-bottom: 94px;
 
     ul{
@@ -8,15 +8,15 @@
 
 }
 
-.profession-list .item:not(:last-child){
+.profession__list .profession__item:not(:last-child){
     margin-right: 30px;
 }
  
-.work-tab {
+.profession__item  {
     position: relative;
 }
 
-.work-top-text {
+.profession__text {
     position: absolute;
     bottom: 0;
     left: 0;

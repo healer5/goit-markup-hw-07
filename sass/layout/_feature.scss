@@ -2,16 +2,16 @@
     padding: 94px 0;
 }
 
-.feature-list{
+.feature__list{
     display: flex;
     margin: 0;
     padding:0;
 
-    .item {
+    .feature__item {
         width: 270px;
     }
 
-    .title {
+    .feature__title {
         margin-top:0;
         margin-bottom: 10px;
         color: var(--primary-text-color);
@@ -19,7 +19,7 @@
         @include font(700, 1.14, 14px, 0.03em);
     }
 
-    p {
+    .feature__paragraph {
         margin-top:0;
         font-size: 14px;
         line-height: 1.71;
@@ -28,7 +28,7 @@
     }
 }
 
-.feature-list .item+ .item {
+.feature__list .feature__item + .feature__item {
     margin-left: 30px;
 }
 
